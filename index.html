@@ -14,10 +14,10 @@
     <div id="heroSection">
         <div id="header-wrapper">
             <div class="title-wrapper">
-                <h1>Design Aesthetics of Metalheart</h1>
-                <h5>A darker and "edgier" offshoot of the Cybercore aesthetic with a more abstract and mechanical feeling to it.</h5>      
+                <h1 class="animate__fadeInDown">Design Aesthetics of Metalheart</h1>
+                <h5 class="animate__fadeInDown">A darker and "edgier" offshoot of the Cybercore aesthetic with a more abstract and mechanical feeling to it.</h5>      
             </div>
-            <div class="action-wrapper">
+            <div class="action-wrapper animate__fadeInDown">
                 <a href="#content-histroy"><button id="btn-main">View Detail</button></a>
                 <a href="https://aesthetics.fandom.com/wiki/Metalheart" target="_blank"><button>Visit Wiki</button></a>
             </div>
@@ -27,14 +27,14 @@
     <div id="introSection">
         <div class="section-wrapper">
             <div class="content-wrapper" id="content-histroy">
-                <img src="assets/intro-history.jpg"/>
                 <div class="p-wrapper">
                     <h3>History</h3>
                     <p>Metalheart was named after Andreas Lindholm's 2001 book of the same title. Websites dated back to that period such as 2Advanced studios and DeviantArt influenced the aesthetic, possibly following the success of The Matrix. This aesthetic peaked in popularity in the Early 2000s and later became oversaturated by the Mid 2000s. After that, it was morphed into <a href="https://aesthetics.fandom.com/wiki/McBling" id="p-link">McBling</a> vector graphics and was replaced by <a href="https://aesthetics.fandom.com/wiki/Hipness_Purgatory" id="p-link">Hipness Purgatory</a>.</p>
                 </div>
+                <img class="intro-image" src="assets/intro-history.jpg"/>
             </div>
             <div class="content-wrapper" id="content-visual">
-                <img src="assets/intro-visual.jpg"/>
+                <img class="intro-image" src="assets/intro-visual.jpg"/>
                 <div class="p-wrapper">
                     <h3>Visual</h3>
                     <p>The visuals consist of deformed abstract shapes, that can be either 3D with metallic and chrome textures or 2D with geometric flat shapes, as well as futurist UIs, that contain minimalist iconography, abstract lines and lights, grids, coding text, and futuristic fonts. These visual elements are usually seen alongside a blurry dark background.
@@ -45,16 +45,23 @@
     </div>
 
     <div id="footer">
-        <h2>Profile</h2>
-        <div id="card animate__bounceIn">
-            <img src="assets/cover_profile.jpg"
-            alt="Mikyoku's abstract anime face, with shadow and stain on her face"/>
-            <div class="fontStyle">
-                <h2>MK2</h2>
-                <p>Visual Artist and Product Designer</p>
-                <h4>Taipei, Taiwan</h4>
+        <video autoplay muted loop id="backVideo"src="assets/VCR_MK2_FINAL.mp4" type="video/mp4"></video>
+        <div id="footer-wrapper">
+            <h2>Profile</h2>
+            <div id="card-wrapper">
+                <img
+                src="assets/cover_profile.jpg"
+                alt="Mikyoku's abstract anime face, with shadow and stain on her face"
+                id="mk2"
+                />
+                <div id="card-content-wrapper">
+                    <h2>MK2</h2>
+                    <p>Visual Artist and Product Designer</p>
+                    <h4>Taipei, Taiwan</h4>
+                </div>
             </div>
         </div>
     </div>
+
 </body>
 </html>
